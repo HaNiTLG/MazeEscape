@@ -1,4 +1,3 @@
 # MazeEscape
 
-An unity game application.
-Created by: Andy, Hani and Robert.
+A game application, created by: Andy, Hani and Robert.
