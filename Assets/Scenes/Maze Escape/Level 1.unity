@@ -42198,6 +42198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63dfc6a3e8e3c6a4eb40525ac3de3dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menue: {fileID: 2053205364}
 --- !u!4 &1395431470
 Transform:
   m_ObjectHideFlags: 0
@@ -62667,9 +62668,8 @@ GameObject:
   - component: {fileID: 2053205365}
   - component: {fileID: 2053205368}
   - component: {fileID: 2053205367}
-  - component: {fileID: 2053205366}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: ESCPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62696,18 +62696,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2053205366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053205364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63dfc6a3e8e3c6a4eb40525ac3de3dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2053205367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65673,7 +65661,6 @@ GameObject:
   - component: {fileID: 2141631873}
   - component: {fileID: 2141631872}
   - component: {fileID: 2141631871}
-  - component: {fileID: 2141631874}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -65765,18 +65752,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &2141631874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141631869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63dfc6a3e8e3c6a4eb40525ac3de3dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2142143373
 PrefabInstance:
   m_ObjectHideFlags: 0

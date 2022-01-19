@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Events : MonoBehaviour
        
 {
-    public Panel panel;
+    public GameObject menue;
     //replay level
     public void ReplayLevel()
     {
@@ -19,13 +19,11 @@ public class Events : MonoBehaviour
     }
 
     //open menue on ESC
-    /*
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            panel.gameObject.setActive(true);
+            menue.gameObject.SetActive(!menue.gameObject.activeSelf);
         }
     }
-    */
 }
