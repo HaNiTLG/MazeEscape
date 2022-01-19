@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     public float timeValue = 90;
     public bool timerIsRunning = false;
     public Text timerText;
+    //public Panel panel;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,8 @@ public class Timer : MonoBehaviour
             else
             {
                 Debug.Log("GAME OVER");
-				SceneManager.LoadScene(1);
+                //SceneManager.LoadScene(1);
+                //panel.gameObject.setActive(true);
                 timeValue = 0;
                 timerIsRunning = false;
             }
