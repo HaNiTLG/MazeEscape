@@ -20,6 +20,8 @@ public class Ziel : MonoBehaviour
         if(other.tag == "Player") 
         {
             Debug.Log("Ziel Erreicht");
+			//Optional: Player teleportieren
+			//thePlayer.transform.position = teleportTarget.transform.position;
         }
     }
 }
