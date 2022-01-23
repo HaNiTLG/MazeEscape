@@ -38,7 +38,7 @@ public class Events : MonoBehaviour
         {
             if (menue.gameObject.activeSelf)
             { //Aktiv
-                Curser.visible = true;
+                Cursor.visible = true;
                 menue.gameObject.SetActive(false);
                 time.GetComponent<Timer>().timerIsRunning = true;
                 paused = false;
@@ -46,7 +46,7 @@ public class Events : MonoBehaviour
             }
             else //Inaktiv
             {
-                Curser.visible = false;
+                Cursor.visible = false;
                 menue.gameObject.SetActive(true);
                 time.GetComponent<Timer>().timerIsRunning = false;
                 paused = true;
@@ -56,7 +56,7 @@ public class Events : MonoBehaviour
         {
             if (time.GetComponent<Timer>().timeValue <= 0.1) //GAME OVER
             {
-                Curser.visible = true;
+                Cursor.visible = true;
                 text.GetComponent<UnityEngine.UI.Text>().text = "GAME OVER";
                 //Debug.Log("GAME OVER1");
                 menue.gameObject.SetActive(true);
