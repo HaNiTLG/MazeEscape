@@ -27,8 +27,8 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                Debug.Log("GAME OVER");
-				SceneManager.LoadScene(1);
+                //Debug.Log("GAME OVER");
+				//SceneManager.LoadScene(1);
                 timeValue = 0;
                 timerIsRunning = false;
             }
