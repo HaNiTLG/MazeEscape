@@ -115,6 +115,7 @@ namespace StarterAssets
 
 		private void Update()
 		{
+			if (Events.paused) return;
 			_hasAnimator = TryGetComponent(out _animator);
 			
 			JumpAndGravity();
