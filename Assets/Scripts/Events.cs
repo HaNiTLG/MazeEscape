@@ -16,12 +16,13 @@ public class Events : MonoBehaviour
         text = GameObject.Find("Pause_GO");
         menue.gameObject.SetActive(false);
         paused = false;
-
+        Cursor.visible = false;
     }
     //replay level
     public void ReplayLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Cursor.visible = false;
         //menue.gameObject.SetActive(false);
         //paused = false;
     }
@@ -38,7 +39,7 @@ public class Events : MonoBehaviour
         {
             if (menue.gameObject.activeSelf)
             { //Aktiv
-                Cursor.visible = true;
+                Cursor.visible = false;
                 menue.gameObject.SetActive(false);
                 time.GetComponent<Timer>().timerIsRunning = true;
                 paused = false;
@@ -46,7 +47,7 @@ public class Events : MonoBehaviour
             }
             else //Inaktiv
             {
-                Cursor.visible = false;
+                Cursor.visible = true;
                 menue.gameObject.SetActive(true);
                 time.GetComponent<Timer>().timerIsRunning = false;
                 paused = true;

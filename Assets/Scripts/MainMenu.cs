@@ -11,5 +11,6 @@ public class MainMenu : MonoBehaviour
     public void LoadLevel(int levelIndex)
     {
         SceneManager.LoadScene(levelIndex);
+        Cursor.visible = false;
     }
 }
